@@ -1,0 +1,31 @@
+﻿生成启动时间为 2018/1/23 9:53:41。
+     1>项目“D:\动物特征提取\BasicImageSegmentation-master\BasicImageSegmentation-master\BasicImageSegmentation\BasicImageSegmentation.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ID:\opencv\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BasicImageSegmentation.cpp
+         BasicImageSegmentation.cpp
+     1>d:\动物特征提取\basicimagesegmentation-master\basicimagesegmentation-master\basicimagesegmentation\basicimagesegmentation.cpp(22): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>d:\动物特征提取\basicimagesegmentation-master\basicimagesegmentation-master\basicimagesegmentation\basicimagesegmentation.cpp(59): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\动物特征提取\BasicImageSegmentation-master\BasicImageSegmentation-master\Debug\BasicImageSegmentation.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\opencv\opencv\build\x86\vc12\lib opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_ml2413d.lib opencv_nonfree2413d.lib opencv_objdetect2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_videostab2413d.lib opencv_core2413d.lib opencv_imgproc2413d.lib opencv_highgui2413d.lib opencv_ml2413d.lib opencv_video2413d.lib opencv_features2d2413d.lib opencv_calib3d2413d.lib opencv_objdetect2413d.lib opencv_contrib2413d.lib opencv_legacy2413d.lib opencv_flann2413d.lib opencv_ocl2413d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\动物特征提取\BasicImageSegmentation-master\BasicImageSegmentation-master\Debug\BasicImageSegmentation.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\动物特征提取\BasicImageSegmentation-master\BasicImageSegmentation-master\Debug\BasicImageSegmentation.lib" /MACHINE:X86 Debug\BasicImageSegmentation.obj
+         Debug\ConfigReader.obj
+         "Debug\segment-image.obj"
+         Debug\GrabCutSegmentor.obj
+         Debug\GraphBasedSegmentor.obj
+         Debug\MeanShiftSegmentor.obj
+         Debug\ms.obj
+         Debug\msImageProcessor.obj
+         Debug\msSys.obj
+         Debug\RAList.obj
+         Debug\rlist.obj
+         Debug\OneCutSegmentor.obj
+         Debug\SEEDSSegmentor.obj
+         Debug\seeds2.obj
+         Debug\segmentor.obj
+         Debug\SLICSegmentor.obj
+         Debug\SLIC.obj
+         BasicImageSegmentation.vcxproj -> D:\动物特征提取\BasicImageSegmentation-master\BasicImageSegmentation-master\Debug\BasicImageSegmentation.exe
+     1>已完成生成项目“D:\动物特征提取\BasicImageSegmentation-master\BasicImageSegmentation-master\BasicImageSegmentation\BasicImageSegmentation.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.43
